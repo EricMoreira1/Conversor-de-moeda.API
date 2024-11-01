@@ -1,4 +1,4 @@
-# Conversor-de-moeda-API
+# Conversor de moeda-API
 
 ## Descrição
 è uma versão superior e melhorada do [conversor de moedas](https://github.com/EricMoreira1/Conversor.git)<br>
