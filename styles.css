@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff00dd, #ff0a7c, #f57f3b, #daff37); /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+}
+ 
+.container {
+    background-color: #f0e2e3; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(89, 0, 107, 0.589); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura fixa para o container */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: #ff006a; /* Cor azul para o título */
+}
+
+label {
+    display: block; /* Faz com que cada label ocupe uma linha inteira */
+    margin-bottom: 8px; /* Espaçamento abaixo dos labels */
+}
+ 
+input[type="number"],
+input[type="text"],
+select {
+    width: 90%; /* Ocupa toda a largura do container */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 16px; /* Espaçamento abaixo dos campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas para campos */
+}
+ 
+button {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 10px; /* Espaçamento interno do botão */
+    background-color: #ff004c; /* Cor de fundo azul */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+ 
+button:hover {
+    background-color: #b30062; /* Cor do botão ao passar o mouse */
+}
+ 
+#conversao {
+    margin-top: 20px; /* Espaçamento acima do resultado */
+    font-weight: bold; /* Negrito para o resultado */
+    text-align: center; /* Centraliza o texto do resultado */
+}
